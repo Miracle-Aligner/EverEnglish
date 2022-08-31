@@ -84,6 +84,11 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.icon-menu{
+  color: #05203D;
+}
+
 body {
   background-color: #fff;
   height: 200vh;
@@ -140,11 +145,18 @@ a {
   z-index: 1999;
   position: relative;
   width: 100%;
-  padding: 1rem; }
+  padding: 1rem; 
+  -webkit-box-shadow: 4px 0 20px -5px rgb(0 0 0 / 20%);
+  box-shadow: 4px 0 20px -5px rgb(0 0 0 / 20%);
+}
+
+
+}
+
   @media (max-width: 991.98px) {
     .site-navbar {
-      padding-top: 3rem;
-      padding-bottom: 3rem; } }
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem; } }
   .site-navbar .toggle-button {
     position: absolute;
     right: 0px; }
