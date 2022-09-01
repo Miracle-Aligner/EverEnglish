@@ -195,6 +195,10 @@ strong {
     padding-top: 4rem !important;
   }
 
+  .px-xl-9 {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
   .pr-xl-9 {
     padding-right: 5rem !important;
   }
@@ -225,6 +229,10 @@ strong {
     padding-top: 7rem !important;
   }
 
+  .px-xl-12 {
+    padding-left: 8rem !important;
+    padding-right: 8rem !important;
+  }
   .pr-xl-12 {
     padding-right: 8rem !important;
   }
@@ -278,7 +286,7 @@ button, .button {
 }
 @media (min-width: 1920px) {
   button, .button {
-    font-size: 2.7rem;
+    font-size: 2.3rem;
   }
 }
 /* SECTION-HEADER */ 
@@ -867,13 +875,17 @@ h1, h2, h3, h4, h5 {
   .h-bg-image {
     width: 75%;
   }
+  .anchor-links, .connect-info, .social {}
 }
 @media (min-width: 1920px) {
   .intro-text {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
   .h-bg-image {
     width: 65%;
+  }
+  .anchor-links, .connect-info, .social {
+    font-size: 1rem;
   }
 }
 
@@ -947,16 +959,25 @@ h1, h2, h3, h4, h5 {
     font-size: 1.8rem;
     top: calc(50% - 1.4rem)!important;
   }
+  .timeline-container {
+    padding: 15px 0px 21px 30px!important;
+  }
 }
 @media (min-width: 1440px) {
   .date {
     font-size: 1.8rem;
     top: calc(50% - 1.2rem)!important;
   }
+  .timeline-container {
+    padding: 15px 0px 21px 30px!important;
+  }
 }
 @media (min-width: 1920px) {
   .date {
-    font-size: 3 rem;
+    font-size: 3rem;
+  }
+  .timeline-container {
+    padding: 15px 0px 27px 30px!important;
   }
 }
 
@@ -1092,6 +1113,23 @@ h1, h2, h3, h4, h5 {
   .section-instructors h3 {
     font-size: 1rem!important;
   }
+  .owl-carousel .owl-prev,
+  .owl-carousel .owl-next {
+    top: -6.3rem;
+  }
+
+  .am-prev img,
+  .am-next img {
+    height: 2.2rem;
+  }
+
+  .owl-carousel .owl-prev {
+    right: 8.5rem;
+  }
+
+  .owl-carousel .owl-next {
+    right: 6rem;
+  }
 }
 @media (min-width: 1440px) {
   .section-instructors h3 {
@@ -1118,6 +1156,24 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1920px) {
   .section-instructors h3 {
     font-size: 2rem!important;
+  }
+
+  .owl-carousel .owl-prev,
+  .owl-carousel .owl-next {
+    top: -7.5rem;
+  }
+
+  .am-prev img,
+  .am-next img {
+    height: 3.2rem;
+  }
+
+  .owl-carousel .owl-prev {
+    right: 13rem;
+  }
+
+  .owl-carousel .owl-next {
+    right: 9rem;
   }
 }
 
@@ -1188,7 +1244,9 @@ h1, h2, h3, h4, h5 {
   }
 }
 @media (min-width: 1920px) {
-  
+  .price-new {
+    font-size: 2.8rem!important;
+  }
 }
 
 .price-new {
