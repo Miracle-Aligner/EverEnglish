@@ -89,7 +89,7 @@ strong {
 }
 
 /* BOOTSTRAP ADDITION CLASSES */
-.pr-0 {
+.force-pr-0, .pr-0 {
   padding-right: 0rem !important;
 }
 
@@ -100,6 +100,10 @@ strong {
 .px-0 {
   padding-right: 0rem !important;
   padding-left: 0rem !important;
+}
+
+.pt-0 {
+  padding-top: 0rem !important;
 }
 
 @media (min-width: 992px) {
@@ -743,6 +747,20 @@ h1, h2, h3, h4, h5 {
   align-items: end;
 }
 
+
+@media (max-width: 768px) {
+  .anchor-links {
+    margin-top: 0%;
+  }
+  .connect, .anchor-links {
+    justify-content: left;
+    text-align: left;
+  }
+  .info {
+    grid-template-rows: 1fr;
+  }
+}
+
 .connect-info {
   align-self: start;
 }
@@ -950,7 +968,11 @@ h1, h2, h3, h4, h5 {
   z-index: 1!important;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 992px) {
+  .date {
+    font-size: 1.8rem;
+    top: calc(50% - 1.4rem)!important;
+  }
 }
 @media (min-width: 992px) {
 }
@@ -998,7 +1020,7 @@ h1, h2, h3, h4, h5 {
 
 @media (max-width: 767.98px) {
   .timeline::after {
-    left: 90px!important;
+    left: 0px!important;
   }
 
   .timeline-container {
@@ -1210,6 +1232,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* PRICES */
+.package-div{
+  background-color: white;
+  background-clip: content-box;
+}
+
 .package-card {
   background-color: white;
   padding: 2rem;
@@ -1283,6 +1310,10 @@ h1, h2, h3, h4, h5 {
   background: white;
 }
 
+.packages-footer {
+
+}
+
 /* ANIMATIONS */
 .animate__animated.animate__fadeInUp {
   --animate-duration: 2s;
@@ -1305,7 +1336,13 @@ h1, h2, h3, h4, h5 {
 
 .application-form {
   background-color: white;
-  padding: 4rem 5.9rem;
+  padding: 4rem 2rem;
+}
+
+@media (min-width: 1200px) {
+  .application-form {
+    padding: 4rem 5.9rem;
+  }
 }
 
 input[type=text] {
@@ -1371,5 +1408,17 @@ input[type=text]::placeholder {
   background: #8aeeee !important;
   font-style: normal;
   text-transform: none;
-  margin: 0 2vw;
+  width: fit-content;
+  margin-bottom: 0rem;
+}
+
+.packages-footer {
+  justify-content: center;
+}
+
+.packages-footer div {
+  white-space: nowrap;
+  justify-content: center;
+  text-align: center;
+  text-align: -webkit-center;
 }
