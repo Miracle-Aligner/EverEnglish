@@ -293,6 +293,11 @@ button, .button {
     font-size: 2.3rem;
   }
 }
+@media (min-width: 2246px) {
+  button, .button {
+    font-size: 3.2rem;
+  }
+}
 /* SECTION-HEADER */ 
 
 .nav-link {
@@ -317,6 +322,11 @@ button, .button {
 @media (min-width: 1920px) {
   .nav-link {
     font-size: 1rem;
+  }
+}
+@media (min-width: 2246px) {
+  .nav-link {
+    font-size: 1.3rem;
   }
 }
 
@@ -657,6 +667,14 @@ h1, h2, h3, h4, h5 {
     font-size: 2.3rem;
   }
 }
+@media (min-width: 2246px) {
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 3.4rem;
+  }
+}
 
 /* @media (min-width: 768px) {
 }
@@ -705,6 +723,15 @@ h1, h2, h3, h4, h5 {
   }
   .paragraph-2 {
     font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 2246px) {
+  .paragraph-1 {
+    font-size: 2.3rem;
+  }
+  .paragraph-2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -907,6 +934,18 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+@media (min-width: 2246px) {
+  .intro-text {
+    font-size: 3.2rem;
+  }
+  .h-bg-image {
+    width: 65%;
+  }
+  .anchor-links, .connect-info, .social {
+    font-size: 1.4rem;
+  }
+}
+
 /* SECTION LETTERING */
 .section-school-name .lettering {
   width: 100%;
@@ -1002,6 +1041,17 @@ h1, h2, h3, h4, h5 {
     padding: 15px 0px 27px 30px!important;
   }
 }
+
+@media (min-width: 2246px) {
+  .date {
+    font-size: 3.5rem;
+    top: calc(50% - 2.5rem)!important;
+  }
+  .timeline-container {
+    padding: 31px 0px 50px 30px!important;
+  }
+}
+
 
 .timeline-container.right .date {
   left: -60px!important;
@@ -1199,6 +1249,33 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+@media (min-width: 2246px) {
+  .section-instructors h3 {
+    font-size: 2.6rem!important;
+  }
+
+  .owl-carousel .owl-prev,
+  .owl-carousel .owl-next {
+    top: -8rem;
+  }
+
+  .am-prev img,
+  .am-next img {
+    height: 4rem;
+  }
+
+  .owl-carousel .owl-prev {
+    right: 17rem;
+  }
+
+  .owl-carousel .owl-next {
+    right: 12rem;
+  }
+  .owl-item {
+    padding: 3rem;
+  }
+}
+
 .section-instructors .education {
   font-weight: bold;
 }
@@ -1242,6 +1319,12 @@ h1, h2, h3, h4, h5 {
   padding: 2rem;
 }
 
+@media (min-width: 2246px) {
+  .package-card {
+    padding: 3rem;
+  }
+}
+
 .package-card p {
   color:#05203D;
 }
@@ -1273,6 +1356,11 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1920px) {
   .price-new {
     font-size: 2.8rem!important;
+  }
+}
+@media (min-width: 2246px) {
+  .price-new {
+    font-size: 3.6rem!important;
   }
 }
 
@@ -1342,6 +1430,12 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1200px) {
   .application-form {
     padding: 4rem 5.9rem;
+  }
+}
+
+@media (min-width: 2246px) {
+  .application-form {
+    padding: 6rem 10.2rem;
   }
 }
 
