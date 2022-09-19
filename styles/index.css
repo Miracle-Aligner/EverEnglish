@@ -298,6 +298,25 @@ button, .button {
     font-size: 3.2rem;
   }
 }
+
+/* WHY US */
+.section-why-choose-us .left-part div {
+  background-color: white;
+  /* padding: ;*/
+}
+
+.stats .left-part img {
+  width: 100%;
+}
+
+.we-will-list .green {
+  color: #8AEEEE;
+  font-weight: bold;
+}
+
+.we-will-list .left {
+  text-align: end;
+}
 /* SECTION-HEADER */ 
 
 .nav-link {
@@ -708,6 +727,9 @@ h1, h2, h3, h4, h5 {
   .paragraph-2 {
     font-size: 0.65rem;
   }
+  .paragraph-3 {
+    font-size: 0.65rem;
+  }
 }
 @media (min-width: 1440px) {
   .paragraph-1 {
@@ -715,6 +737,9 @@ h1, h2, h3, h4, h5 {
   }
   .paragraph-2 {
     font-size: 0.8rem;
+  }
+  .paragraph-3 {
+    font-size: 0.73rem;
   }
 }
 @media (min-width: 1920px) {
@@ -724,6 +749,9 @@ h1, h2, h3, h4, h5 {
   .paragraph-2 {
     font-size: 1.2rem;
   }
+  .paragraph-3 {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 2246px) {
@@ -731,6 +759,9 @@ h1, h2, h3, h4, h5 {
     font-size: 2.3rem;
   }
   .paragraph-2 {
+    font-size: 1.5rem;
+  }
+  .paragraph-3 {
     font-size: 1.5rem;
   }
 }
