@@ -54,10 +54,9 @@
           var css = t.replace(/[+-]?([0-9]+\.?[0-9]*|\.[0-9]+)+rem/g, function (x) {
             return convertRemToPixels(parseFloat(x)) + "px";
           });
+          var final_css = "<style>" + css + "</style>"
+          document.getElementsByTagName("head")[0].innerHTML += final_css;
         })
-
-        var final_css = "<style>" + css + "</style>"
-        document.getElementsByTagName("head")[0].innerHTML += final_css;
       }
 
       function loadStyles () {
