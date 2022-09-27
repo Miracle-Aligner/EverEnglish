@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Read Text File</title>
+</head>
+  
+<body>
+    <input type="file" name="inputfile"
+            id="inputfile">
+    <br>
+   
+    <pre id="output"></pre>
+      
+    <script type="text/javascript">
+        document.getElementById('inputfile')
+            .addEventListener('change', function() {
+              
+            var fr=new FileReader();
+            fr.onload=function(){
+                document.getElementById('output')
+                        .textContent=changeRem(fr.result);
+            }
+              
+            fr.readAsText(this.files[0]);
+        })
+
+        function changeRem (text) {
+          var css = text.replace(/font-size: +[+-]?([0-9]+\.?[0-9]*|\.[0-9]+)+rem/g, function (x) {
+            x = x.replace("font-size: ", "");
+            console.log("Prev: ", x);
+            console.log("After: ", ("font-size: " + parseFloat( (parseFloat(x) * 0.1).toFixed(6) ) ) + "rem");
+            return ( "font-size: " + parseFloat( (parseFloat(x) * 0.1).toFixed(6) ) ) + "rem";
+         });
+         
+         return css;
+        }
+    </script>
+</body>
+  
+</html>
