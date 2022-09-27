@@ -61,6 +61,10 @@
         })
       }
 
+      function convertRemToPixels(rem) {    
+        return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+      }
+
       function loadStyles () {
         // document.getElementsByTagName("head")[0].innerHTML += '<link rel="stylesheet" href="./styles/index_ios_optimized.css">';
 
