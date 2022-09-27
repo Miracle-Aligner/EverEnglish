@@ -282,21 +282,25 @@ button, .button {
 @media (min-width: 1200px) {
   button, .button {
     font-size: 1.5rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 1440px) {
   button, .button {
     font-size: 1.8rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 1920px) {
   button, .button {
     font-size: 2.3rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 2246px) {
   button, .button {
     font-size: 3.2rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 
@@ -332,21 +336,25 @@ button, .button {
 @media (min-width: 1152px) {
   .nav-link {
     font-size: 0.65rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 1440px) {
   .nav-link {
     font-size: 0.75rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 1920px) {
   .nav-link {
     font-size: 1rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 2246px) {
   .nav-link {
     font-size: 1.3rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 
@@ -421,6 +429,7 @@ a {
   .site-navbar .site-logo {
     position: absolute;
     font-size: 2rem;
+    -webkit-text-size-adjust: none!important;
     text-transform: uppercase;
     font-weight: 900;
     line-height: 0;
@@ -666,14 +675,17 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1200px) {
   h2 {
     font-size: 1.8rem;
+    -webkit-text-size-adjust: none!important;
   }
   h3 {
     font-size: 1.7rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 1440px) {
   h2 {
     font-size: 2.2rem;
+    -webkit-text-size-adjust: none!important;
   }
   h3 {
     font-size: 2rem;
@@ -682,17 +694,21 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1920px) {
   h2 {
     font-size: 3rem;
+    -webkit-text-size-adjust: none!important;
   }
   h3 {
     font-size: 2.3rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 2246px) {
   h2 {
     font-size: 4rem;
+    -webkit-text-size-adjust: none!important;
   }
   h3 {
     font-size: 3.4rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 
@@ -724,46 +740,58 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1200px) {
   .paragraph-1 {
     font-size: 1.1rem;
+    -webkit-text-size-adjust: none!important;
   }
   .paragraph-2 {
     font-size: 0.65rem;
+    -webkit-text-size-adjust: none!important;
   }
   .paragraph-3 {
     font-size: 0.65rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 1440px) {
   .paragraph-1 {
     font-size: 1.3rem;
+    -webkit-text-size-adjust: none!important;
   }
   .paragraph-2 {
     font-size: 0.8rem;
+    -webkit-text-size-adjust: none!important;
   }
   .paragraph-3 {
     font-size: 0.73rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 1920px) {
   .paragraph-1 {
     font-size: 1.8rem;
+    -webkit-text-size-adjust: none!important;
   }
   .paragraph-2 {
     font-size: 1.2rem;
+    -webkit-text-size-adjust: none!important;
   }
   .paragraph-3 {
     font-size: 1rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 
 @media (min-width: 2246px) {
   .paragraph-1 {
     font-size: 2.3rem;
+    -webkit-text-size-adjust: none!important;
   }
   .paragraph-2 {
     font-size: 1.5rem;
+    -webkit-text-size-adjust: none!important;
   }
   .paragraph-3 {
     font-size: 1.5rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 
@@ -777,11 +805,13 @@ h1, h2, h3, h4, h5 {
   background-color: #8AEEEE;
   padding: 7%;
   font-size: calc(0vw + 1.8rem)!important;
+  -webkit-text-size-adjust: none!important;
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
   .green-rectangle {
     font-size: calc(0vw + 1.2rem)!important;
+    -webkit-text-size-adjust: none!important;
   }
 }
 
@@ -887,6 +917,7 @@ h1, h2, h3, h4, h5 {
     width: 80vw;
     padding: 10%;
     font-size: calc(0vw + 1.2rem)!important;
+    -webkit-text-size-adjust: none!important;
   }
   .connect {
     grid-template-columns: 1fr;
@@ -901,6 +932,7 @@ h1, h2, h3, h4, h5 {
     width: 80vw;
     padding: 10%;
     font-size: calc(0vw + 1.2rem)!important;
+    -webkit-text-size-adjust: none!important;
   }
   .connect {
     grid-template-columns: 1fr;
@@ -921,6 +953,7 @@ h1, h2, h3, h4, h5 {
 .intro-text {
   font-size: 1.7rem;
   line-height: normal;
+  -webkit-text-size-adjust: none!important;
 }
 
 .section-welcome .right-part :not(:last-child) {
@@ -940,6 +973,7 @@ h1, h2, h3, h4, h5 {
   }
   .intro-text {
     font-size: 1.4rem;
+    -webkit-text-size-adjust: none!important;
   }
   .h-bg-image {
     width: 65%;
@@ -948,6 +982,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1440px) {
   .intro-text {
     font-size: 1.6rem;
+    -webkit-text-size-adjust: none!important;
   }
   .h-bg-image {
     width: 75%;
@@ -957,24 +992,28 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1920px) {
   .intro-text {
     font-size: 2.2rem;
+    -webkit-text-size-adjust: none!important;
   }
   .h-bg-image {
     width: 65%;
   }
   .anchor-links, .connect-info, .social {
     font-size: 1rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 
 @media (min-width: 2246px) {
   .intro-text {
     font-size: 3.2rem;
+    -webkit-text-size-adjust: none!important;
   }
   .h-bg-image {
     width: 65%;
   }
   .anchor-links, .connect-info, .social {
     font-size: 1.4rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 
@@ -1042,6 +1081,7 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 992px) {
   .date {
     font-size: 1.8rem;
+    -webkit-text-size-adjust: none!important;
     top: calc(50% - 1.4rem)!important;
   }
 }
@@ -1050,6 +1090,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1200px) {
   .date {
     font-size: 1.8rem;
+    -webkit-text-size-adjust: none!important;
     top: calc(50% - 1.4rem)!important;
   }
   .timeline-container {
@@ -1059,6 +1100,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1440px) {
   .date {
     font-size: 1.8rem;
+    -webkit-text-size-adjust: none!important;
     top: calc(50% - 1.2rem)!important;
   }
   .timeline-container {
@@ -1068,6 +1110,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1920px) {
   .date {
     font-size: 3rem;
+    -webkit-text-size-adjust: none!important;
   }
   .timeline-container {
     padding: 15px 0px 27px 30px!important;
@@ -1077,6 +1120,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 2246px) {
   .date {
     font-size: 3.5rem;
+    -webkit-text-size-adjust: none!important;
     top: calc(50% - 2.5rem)!important;
   }
   .timeline-container {
@@ -1211,11 +1255,13 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 992px) {
   .section-instructors h3 {
     font-size: 2rem!important;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 1200px) {
   .section-instructors h3 {
     font-size: 1rem!important;
+    -webkit-text-size-adjust: none!important;
   }
   .owl-carousel .owl-prev,
   .owl-carousel .owl-next {
@@ -1238,6 +1284,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1440px) {
   .section-instructors h3 {
     font-size: 1.4rem!important;
+    -webkit-text-size-adjust: none!important;
   }
   .owl-carousel .owl-prev,
   .owl-carousel .owl-next {
@@ -1260,6 +1307,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1920px) {
   .section-instructors h3 {
     font-size: 2rem!important;
+    -webkit-text-size-adjust: none!important;
   }
 
   .owl-carousel .owl-prev,
@@ -1284,6 +1332,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 2246px) {
   .section-instructors h3 {
     font-size: 2.6rem!important;
+    -webkit-text-size-adjust: none!important;
   }
 
   .owl-carousel .owl-prev,
@@ -1383,16 +1432,19 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 1440px) {
   .price-new {
     font-size: 2rem!important;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 1920px) {
   .price-new {
     font-size: 2.8rem!important;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 2246px) {
   .price-new {
     font-size: 3.6rem!important;
+    -webkit-text-size-adjust: none!important;
   }
 }
 
@@ -1508,16 +1560,19 @@ input[type=text]::placeholder {
 @media (min-width: 1200px) {
   input[type=text]  {
     font-size: 0.65rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 1440px) {
   input[type=text]  {
     font-size: 0.8rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 @media (min-width: 1920px) {
   input[type=text]  {
     font-size: 1.2rem;
+    -webkit-text-size-adjust: none!important;
   }
 }
 
