@@ -33,7 +33,45 @@
     
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
 
-    <link rel="stylesheet" href="./styles/index_ios_optimized.css">
+    <!-- <link rel="stylesheet" href="./styles/index_ios_optimized.css"> -->
+
+    <script>
+      // document.getElementsByTagName("body")[0].addEventListener("load", includeStyles);
+
+      includeStyles();
+
+      function includeStyles() {
+        var isSafari = window.safari !== undefined;
+        if (isSafari) updateRems ();
+        else loadStyles();
+      }
+      
+      function updateRems () {
+        const url = "https://raw.githubusercontent.com/Miracle-Aligner/EverEnglish-landing-page/main/styles/index.css"
+        fetch(url)
+        .then( r => r.text() )
+        .then( t => {
+          var css = t.replace(/[+-]?([0-9]+\.?[0-9]*|\.[0-9]+)+rem/g, function (x) {
+            return convertRemToPixels(parseFloat(x)) + "px";
+          });
+        })
+
+        var final_css = "<style>" + css + "</style>"
+        document.getElementsByTagName("head")[0].innerHTML += final_css;
+      }
+
+      function loadStyles () {
+        // document.getElementsByTagName("head")[0].innerHTML += '<link rel="stylesheet" href="./styles/index_ios_optimized.css">';
+
+        const url = "https://raw.githubusercontent.com/Miracle-Aligner/EverEnglish-landing-page/main/styles/index.css"
+        fetch(url)
+        .then( r => r.text() )
+        .then( t => {
+          var css = "<style>" + t + "</style>"
+          document.getElementsByTagName("head")[0].innerHTML += css;
+        })
+      }
+    </script>
   </head>
   <body>
 

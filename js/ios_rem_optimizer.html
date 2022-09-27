@@ -13,9 +13,27 @@
     <pre id="output"></pre>
       
     <script type="text/javascript">
+      function updateRems () {
+        const url = "https://raw.githubusercontent.com/Miracle-Aligner/EverEnglish-landing-page/main/styles/index.css"
+        fetch(url)
+            .then( r => r.text() )
+            .then( t => {
+              var css = t.replace(/+[+-]?([0-9]+\.?[0-9]*|\.[0-9]+)+rem/g, function (x) {
+                x = x.replace("font-size: ", "");
+                return "font-size: " + convertRemToPixels(parseFloat(x)) + "px";
+             });
+            })
+      }
+
+
         document.getElementById('inputfile')
             .addEventListener('change', function() {
-              
+            
+              const url = "https://raw.githubusercontent.com/Miracle-Aligner/EverEnglish-landing-page/main/styles/index.css"
+              fetch(url)
+                 .then( r => r.text() )
+                 .then( t => console.log(t))
+
             var fr=new FileReader();
             fr.onload=function(){
                 document.getElementById('output')
@@ -28,13 +46,22 @@
         function changeRem (text) {
           var css = text.replace(/font-size: +[+-]?([0-9]+\.?[0-9]*|\.[0-9]+)+rem/g, function (x) {
             x = x.replace("font-size: ", "");
-            console.log("Prev: ", x);
-            console.log("After: ", ("font-size: " + parseFloat( (parseFloat(x) * 0.1).toFixed(6) ) ) + "rem");
-            return ( "font-size: " + parseFloat( (parseFloat(x) * 0.1).toFixed(6) ) ) + "rem";
+            // console.log("Prev: ", x);
+            // console.log("After: ", "font-size: " + convertRemToPixels(parseFloat(x)) + "px");
+            // return ( "font-size: " + parseFloat( (parseFloat(x) * 0.1).toFixed(6) ) ) + "rem";
+
+            return "font-size: " + convertRemToPixels(parseFloat(x)) + "px";
          });
          
          return css;
         }
+
+        function convertRemToPixels(rem) {    
+          return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+        }
+
+        
+
     </script>
 </body>
   
