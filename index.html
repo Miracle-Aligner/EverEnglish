@@ -35,16 +35,16 @@
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/general.css">
 
-    <!-- <link rel="stylesheet" href="./styles/index_ios_optimized.css"> -->
+    <link rel="stylesheet" href="./styles/index.css">
 
     <script>
       // document.getElementsByTagName("body")[0].addEventListener("load", includeStyles);
 
-      includeStyles();
+      // includeStyles();
 
       function includeStyles() {
         var isSafari = window.safari !== undefined;
-        if (isSafari) loadStyles ();
+        if (isSafari) updateRems ();
         else loadStyles();
       }
       
