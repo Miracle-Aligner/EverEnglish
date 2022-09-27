@@ -53,10 +53,11 @@
         fetch(url)
         .then( r => r.text() )
         .then( t => {
-          var css = t.replace(/[+-]?([0-9]+\.?[0-9]*|\.[0-9]+)+rem/g, function (x) {
-            return convertRemToPixels(parseFloat(x)) + "px";
-          });
-          var final_css = "<style>" + css + "</style>"
+          // var css = t.replace(/[+-]?([0-9]+\.?[0-9]*|\.[0-9]+)+rem/g, function (x) {
+          //   return convertRemToPixels(parseFloat(x)) + "px";
+          // });
+          // var final_css = "<style>" + css + "</style>"
+          var final_css = "<style>" + t + "</style>"
           document.getElementsByTagName("head")[0].innerHTML += final_css;
         })
       }
