@@ -1,6 +1,6 @@
 
 body {
-  background: url("https://github.com/Miracle-Aligner/EverEnglish-landing-page/blob/main/img/bg.png?raw=true");
+  background: url(../img/bg.png);
   background-size: cover;
   font-family: 'Proxima Nova';
 }
@@ -9,7 +9,7 @@ body {
 .section-footer {
   padding-top: 0px!important;
   padding-bottom: 25%!important;
-  background-image: url('https://github.com/Miracle-Aligner/EverEnglish-landing-page/blob/main/img/contact_us_bg.png?raw=true')!important;
+  background-image: url('../img/contact_us_bg.png')!important;
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: cover;

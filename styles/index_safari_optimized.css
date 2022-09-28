@@ -23,74 +23,6 @@ strong {
   font-weight: bold;
 }
 
-@font-face {
-  font-family: 'Bebas Neue';
-  src: url('../fonts/bebas-neue/BebasNeue-Regular.eot');
-  src: url('../fonts/bebas-neue/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/bebas-neue/BebasNeue-Regular.woff2') format('woff2'),
-      url('../fonts/bebas-neue/BebasNeue-Regular.woff') format('woff'),
-      url('../fonts/bebas-neue/BebasNeue-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Bebas Neue';
-  src: url('../fonts/bebas-neue/BebasNeue-Regular.eot');
-  src: url('../fonts/bebas-neue/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/bebas-neue/BebasNeue-Regular.woff2') format('woff2'),
-      url('../fonts/bebas-neue/BebasNeue-Regular.woff') format('woff'),
-      url('../fonts/bebas-neue/BebasNeue-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url('../fonts/proxima-nova/ProximaNova-Bold.eot');
-  src: url('../fonts/proxima-nova/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/proxima-nova/ProximaNova-Bold.woff') format('woff'),
-      url('../fonts/proxima-nova/ProximaNova-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url('../fonts/proxima-nova/ProximaNova-BoldIt.eot');
-  src: url('../fonts/proxima-nova/ProximaNova-BoldIt.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/proxima-nova/ProximaNova-BoldIt.woff') format('woff'),
-      url('../fonts/proxima-nova/ProximaNova-BoldIt.ttf') format('truetype');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url('../fonts/proxima-nova/ProximaNova-Regular.eot');
-  src: url('../fonts/proxima-nova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/proxima-nova/ProximaNova-Regular.woff') format('woff'),
-      url('../fonts/proxima-nova/ProximaNova-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url('../fonts/proxima-nova/ProximaNova-RegularIt.eot');
-  src: url('../fonts/proxima-nova/ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/proxima-nova/ProximaNova-RegularIt.woff') format('woff'),
-      url('../fonts/proxima-nova/ProximaNova-RegularIt.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
 /* BOOTSTRAP ADDITION CLASSES */
 .force-pr-0, .pr-0 {
   padding-right: 0px !important;
@@ -258,12 +190,6 @@ strong {
 .gutter-2 > [class^="col-"], .gutter-2 > [class^=" col-"] {
   padding-right: 1px;
   padding-left: 1px;
-}
-
-body {
-  background: url(../img/bg.png);
-  background-size: cover;
-  font-family: 'Proxima Nova';
 }
 
 /* BUTTON */
@@ -1006,16 +932,6 @@ h1, h2, h3, h4, h5 {
   .connect {
     grid-template-columns: 1fr;
   }
-}
-
-.section-footer {
-  padding-top: 0px!important;
-  padding-bottom: 25%!important;
-  background-image: url('../img/contact_us_bg.png')!important;
-  background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 30vh
 }
 
 /* WELCOME SCREEN */
