@@ -111,7 +111,7 @@ strong {
 
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and  (max-width: 2245px)  {
   .px-xl-8 {
     padding-left: 96px !important;
     padding-right: 96px !important;
@@ -207,7 +207,7 @@ button, .button {
 }
 @media (min-width: 992px) {
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and  (max-width: 1439px)  {
   button, .button {
     font-size: 36px;
     -moz-text-size-adjust: none;
@@ -215,7 +215,7 @@ button, .button {
     text-size-adjust: none;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and  (max-width: 1919px)  {
   button, .button {
     font-size: 43px;
     -moz-text-size-adjust: none;
@@ -223,7 +223,7 @@ button, .button {
     text-size-adjust: none;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and  (max-width: 2245px)  {
   button, .button {
     font-size: 55px;
     -moz-text-size-adjust: none;
@@ -231,7 +231,7 @@ button, .button {
     text-size-adjust: none;
   }
 }
-@media (min-width: 2246px) {
+@media (min-width: 1920px) and  (max-width: 4000px)  {
   button, .button {
     font-size: 77px;
     -moz-text-size-adjust: none;
@@ -277,7 +277,7 @@ button, .button {
     text-size-adjust: none;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and  (max-width: 1919px)  {
   .nav-link {
     font-size: 18px;
     -moz-text-size-adjust: none;
@@ -285,7 +285,7 @@ button, .button {
     text-size-adjust: none;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and  (max-width: 2245px)  {
   .nav-link {
     font-size: 24px;
     -moz-text-size-adjust: none;
@@ -293,7 +293,7 @@ button, .button {
     text-size-adjust: none;
   }
 }
-@media (min-width: 2246px) {
+@media (min-width: 1920px) and  (max-width: 4000px)  {
   .nav-link {
     font-size: 31px;
     -moz-text-size-adjust: none;
@@ -679,11 +679,11 @@ h1, h2, h3, h4, h5 {
 }
 @media (min-width: 992px) {
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and  (max-width: 1439px)  {
 }
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and  (max-width: 1919px)  {
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and  (max-width: 2245px)  {
 } */
 
 
@@ -700,7 +700,7 @@ h1, h2, h3, h4, h5 {
 }
 @media (min-width: 992px) {
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1439px) {
   .paragraph-1 {
     font-size: 26px;
     -moz-text-size-adjust: none;
@@ -720,7 +720,7 @@ h1, h2, h3, h4, h5 {
     text-size-adjust: none;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and  (max-width: 1919px)  {
   .paragraph-1 {
     font-size: 31px;
     -moz-text-size-adjust: none;
@@ -740,7 +740,7 @@ h1, h2, h3, h4, h5 {
     text-size-adjust: none;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and  (max-width: 2245px)  {
   .paragraph-1 {
     font-size: 43px;
     -moz-text-size-adjust: none;
@@ -761,7 +761,7 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-@media (min-width: 2246px) {
+@media (min-width: 1920px) and  (max-width: 4000px)  {
   .paragraph-1 {
     font-size: 55px;
     -moz-text-size-adjust: none;
@@ -954,7 +954,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 992px) {
 
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and  (max-width: 1439px)  {
   .section-welcome{ 
     padding-bottom: 0px;
   }
@@ -968,7 +968,7 @@ h1, h2, h3, h4, h5 {
     width: 65%;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and  (max-width: 1919px)  {
   .intro-text {
     font-size: 38px;
     -moz-text-size-adjust: none;
@@ -980,7 +980,7 @@ h1, h2, h3, h4, h5 {
   }
   .anchor-links, .connect-info, .social {}
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and  (max-width: 2245px)  {
   .intro-text {
     font-size: 53px;
     -moz-text-size-adjust: none;
@@ -998,7 +998,7 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-@media (min-width: 2246px) {
+@media (min-width: 1920px) and  (max-width: 4000px)  {
   .intro-text {
     font-size: 77px;
     -moz-text-size-adjust: none;
@@ -1088,7 +1088,7 @@ h1, h2, h3, h4, h5 {
 }
 @media (min-width: 992px) {
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and  (max-width: 1439px)  {
   .date {
     font-size: 43px;
     -moz-text-size-adjust: none;
@@ -1100,7 +1100,7 @@ h1, h2, h3, h4, h5 {
     padding: 15px 0px 21px 30px!important;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and  (max-width: 1919px)  {
   .date {
     font-size: 43px;
     -moz-text-size-adjust: none;
@@ -1112,7 +1112,7 @@ h1, h2, h3, h4, h5 {
     padding: 15px 0px 21px 30px!important;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and  (max-width: 2245px)  {
   .date {
     font-size: 72px;
     -moz-text-size-adjust: none;
@@ -1124,7 +1124,7 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-@media (min-width: 2246px) {
+@media (min-width: 1920px) and  (max-width: 4000px)  {
   .date {
     font-size: 84px;
     -moz-text-size-adjust: none;
@@ -1269,7 +1269,7 @@ h1, h2, h3, h4, h5 {
     text-size-adjust: none;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and  (max-width: 1439px)  {
   .section-instructors h3 {
     font-size: 24px!important;
     -moz-text-size-adjust: none;
@@ -1294,7 +1294,7 @@ h1, h2, h3, h4, h5 {
     right: 144px;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and  (max-width: 1919px)  {
   .section-instructors h3 {
     font-size: 34px!important;
     -moz-text-size-adjust: none;
@@ -1319,7 +1319,7 @@ h1, h2, h3, h4, h5 {
     right: 156px;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and  (max-width: 2245px)  {
   .section-instructors h3 {
     font-size: 48px!important;
     -moz-text-size-adjust: none;
@@ -1346,7 +1346,7 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-@media (min-width: 2246px) {
+@media (min-width: 1920px) and  (max-width: 4000px)  {
   .section-instructors h3 {
     font-size: 62px!important;
     -moz-text-size-adjust: none;
@@ -1419,7 +1419,7 @@ h1, h2, h3, h4, h5 {
   padding: 48px;
 }
 
-@media (min-width: 2246px) {
+@media (min-width: 1920px) and  (max-width: 4000px)  {
   .package-card {
     padding: 72px;
   }
@@ -1445,10 +1445,10 @@ h1, h2, h3, h4, h5 {
 
 @media (min-width: 992px) {
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and  (max-width: 1439px)  {
   
 }
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and  (max-width: 1919px)  {
   .price-new {
     font-size: 48px!important;
     -moz-text-size-adjust: none;
@@ -1456,7 +1456,7 @@ h1, h2, h3, h4, h5 {
     text-size-adjust: none;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and  (max-width: 2245px)  {
   .price-new {
     font-size: 67px!important;
     -moz-text-size-adjust: none;
@@ -1464,7 +1464,7 @@ h1, h2, h3, h4, h5 {
     text-size-adjust: none;
   }
 }
-@media (min-width: 2246px) {
+@media (min-width: 1920px) and  (max-width: 4000px)  {
   .price-new {
     font-size: 86px!important;
     -moz-text-size-adjust: none;
@@ -1536,13 +1536,13 @@ h1, h2, h3, h4, h5 {
   padding: 96px 48px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and  (max-width: 1439px)  {
   .application-form {
     padding: 96px 142px;
   }
 }
 
-@media (min-width: 2246px) {
+@media (min-width: 1920px) and  (max-width: 4000px)  {
   .application-form {
     padding: 144px 245px;
   }
@@ -1582,7 +1582,7 @@ input[type=text]::placeholder {
 }
 @media (min-width: 992px) {
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and  (max-width: 1439px)  {
   input[type=text]  {
     font-size: 16px;
     -moz-text-size-adjust: none;
@@ -1590,7 +1590,7 @@ input[type=text]::placeholder {
     text-size-adjust: none;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and  (max-width: 1919px)  {
   input[type=text]  {
     font-size: 19px;
     -moz-text-size-adjust: none;
@@ -1598,7 +1598,7 @@ input[type=text]::placeholder {
     text-size-adjust: none;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and  (max-width: 2245px)  {
   input[type=text]  {
     font-size: 29px;
     -moz-text-size-adjust: none;
