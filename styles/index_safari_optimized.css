@@ -618,7 +618,7 @@ h1, h2, h3, h4, h5 {
 }
 @media (min-width: 992px) {
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1439px) {
   h2 {
     font-size: 43px;
     -moz-text-size-adjust: none;
@@ -632,7 +632,7 @@ h1, h2, h3, h4, h5 {
     text-size-adjust: none;
   }
 }
-@media (min-width: 1439px) {
+@media (min-width: 1440px) and (max-width: 1919px) {
   h2 {
     font-size: 53px;
     -moz-text-size-adjust: none;
@@ -647,7 +647,7 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-@media (min-width: 1919px) {
+@media (min-width: 1920px) and (max-width: 2245px) {
   h2 {
     font-size: 72px;
     -moz-text-size-adjust: none;
@@ -660,7 +660,7 @@ h1, h2, h3, h4, h5 {
     text-size-adjust: none;
   }
 }
-@media (min-width: 2246px) {
+@media (min-width: 2246px) and (max-width: 4001px) {
   h2 {
     font-size: 96px;
     -moz-text-size-adjust: none;
