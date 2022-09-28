@@ -618,7 +618,7 @@ h1, h2, h3, h4, h5 {
 }
 @media (min-width: 992px) {
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1439px) {
   h2 {
     font-size: 43px;
     -moz-text-size-adjust: none;
